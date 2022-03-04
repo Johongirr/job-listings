@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import styled, { css } from "styled-components";
-import BgDesktopImg from "../public/images/bg-header-desktop.svg";
-import BgMobileImg from "./images/bg-header-mobile.svg";
+
 import JobsList from "./components/JobsList/JobsList";
 import TagsList from "./components/TagsList/TagsList";
 
 const AppBox = styled.div`
-  background-image: url(${BgDesktopImg});
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsl(180, 29%, 50%);

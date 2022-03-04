@@ -20,6 +20,9 @@ span,img,button {
   display: inline-block;
 }
 
+.app__box {
+  background-image: url(../public/images/bg-header-desktop.svg);
+}
 /* cards */
 .card {
   position: relative;
