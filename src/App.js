@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled, { css } from "styled-components";
-import BgDesktopImg from "./images/bg-header-desktop.svg";
+import BgDesktopImg from "../public/images/bg-header-desktop.svg";
 import BgMobileImg from "./images/bg-header-mobile.svg";
 import JobsList from "./components/JobsList/JobsList";
 import TagsList from "./components/TagsList/TagsList";
